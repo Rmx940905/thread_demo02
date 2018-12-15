@@ -2,6 +2,7 @@ package cn.itcast;
 
 /*
  * volatile关键字
+ * 作用:保证线程之间可见,但不保证原子性(不保证线程安全问题)
  */
 
 class ThreadVolatileDemo extends Thread{
